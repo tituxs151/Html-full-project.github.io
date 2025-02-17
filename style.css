@@ -1,0 +1,18 @@
+body {
+    font-size: 15pt;
+}
+nav {
+    background-color: red;
+    padding: 1rem;
+}
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+/* রেস্পন্সিভ ডিজাইন */
+@media (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+}
